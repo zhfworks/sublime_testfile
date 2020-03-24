@@ -1,0 +1,13 @@
+win+r  cmd 
+
+netstat -ano 
+
+netstat -ano|findstr "8080"
+
+tasklist | findstr  4652 
+tasklist | findstr  java
+
+杀掉进程使用taskkill -PID 进程号 -F
+
+taskkill -PID 4652 -F
+
